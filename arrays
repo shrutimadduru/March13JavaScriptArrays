@@ -1,0 +1,40 @@
+let studentRecord1 = [
+    "Student name:","shruti",
+    "Student Id:","111",
+    "Program Group:","CSAT"
+    
+];
+console.log(studentRecord1);
+
+let studentRecord2 = [
+    "Student name:","Navneet",
+    "Student Id:","112",
+    "Program Group:","CPT"
+    
+];
+console.log(studentRecord2);
+
+let studentRecord3 = [
+    "Student name:","Monica",
+    "Student Id:","112",
+    "Program Group:","PM"
+    
+];
+console.log(studentRecord3);
+let classRecord = [
+  "ClassName:",
+  "StudentRecord:"
+]
+classRecord[0,1]=studentRecord1
+console.log(classRecord[0,1]);
+/*function a(start, endnumber, steppingNumber) {
+    var currentNumber = start;
+    var sum = 0;
+
+    for (; currentNumber > endnumber;) {
+        sum += currentNumber;
+        currentNumber -= steppingNumber;
+    }
+    return sum;
+}
+console.log(a(1000, 100, 20));*/
